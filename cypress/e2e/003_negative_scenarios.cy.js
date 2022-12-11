@@ -80,7 +80,7 @@ describe('01. Unvalid data in searchbox with All option in dropdown menu', () =>
         cy.get('#navbar-search-category-select-contents > .ipc-list > :nth-child(4) > .ipc-list-item__text').click();
         cy.get('.sc-3c88d23-0 > .sc-dQppl > .ipc-button > .ipc-button__text').should('have.text', 'Celebs');
 
-        //type Зфвфдуслш (Padalecki in russian keyboard), click loupe
+        //type Зфвфдуслш (Padalecki in russian keyboard layout), click loupe
         cy.get('input[type="text"]').type('Зфвфдуслш');
         cy.get('#suggestion-search-button').click();
 
