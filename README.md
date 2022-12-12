@@ -29,6 +29,7 @@ This project includes automated cases for IMDb.com searchbar. They created for C
 4. Copy repository URL to the box in the top of VSC window
 5. Launch *Terminal* tab in toggle panel and install cypress to the project directory: *npm i cypress --save -dev*
 6. Launch in the terminal test specs: *npx cypress open* to execute tests in browser and *npx cypress run* in terminal silently.
+7. To execute test in browser go to: *E2E Testing* - Choose browser - Press start - Choose spec to perform
 
 **Test results:**
 
